@@ -1,0 +1,286 @@
+.useful_serv {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 30px;
+}
+
+.headerserv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 60px;
+    gap: 780px;
+}
+
+
+.title2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    /* margin-left: 375px;
+    margin-top: 60px; */
+} 
+
+.moreinf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #0d4cd3; 
+}
+
+.moreinf:hover {
+    cursor: pointer;
+    color: #1F50E8;
+}
+
+.gosinf {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    gap: 38px;
+}
+
+.gosuslugi-icon {
+    display: flex;
+    width: 252px;
+    height: 132px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 15px;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease;
+}
+  
+.gosuslugi-icon svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -80px;
+}
+  
+.gosuslugi-icon p {
+    padding: 4px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify; 
+    margin: 0; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#untitque {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6b6b;
+}
+  
+.gosuslugi-icon:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+  
+.golgos {
+    width: 252px;
+    height: 132px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 15px;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease;
+}
+
+#gosolsvg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -80px;
+}
+
+.golgos p {
+    padding: 4px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify; 
+    margin: 0; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#untitgol {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6b6b;
+}
+
+.golgos:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.invalid {
+    width: 252px;
+    height: 132px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 15px;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease;
+}
+
+.invalid svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -80px;
+}
+
+.invalid p {
+    padding: 4px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify; 
+    margin: 0; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#untitinv {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6b6b;
+}
+
+.invalid:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.gosauto {
+    width: 252px;
+    height: 132px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 15px;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease;
+}
+
+.gosauto svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -80px;
+}
+
+.gosauto p {
+    padding: 4px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify; 
+    margin: 0; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#untitauto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6b6b;
+}
+
+.gosauto:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.babyborn {
+    width: 252px;
+    height: 132px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 15px;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease;
+}
+
+.babyborn svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -80px;
+}
+
+.babyborn p {
+    padding: 4px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify; 
+    margin: 0; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#untitbabyborn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6b6b;
+}
+
+.babyborn:hover {
+    cursor: pointer;
+    transform: translateY(-5px);   
+}
+
+.shtraf {
+    width: 267px;
+    height: 147px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #ffffff; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease;
+}
+
+.shtraf svg {
+    align-items: center;
+    background: #edf2fe;
+    width: 267px;
+    height: 147px;
+}
+
+.shtraf p {
+    background:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.shtraf:hover {
+    cursor: pointer;
+    transform: translateY(-5px); 
+}
